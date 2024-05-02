@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shawarma Ordering App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Sign-in and sign-out links -->
+    <div id="authLinks">
+        <a href="https://onlcdboneshawarma.auth.us-east-2.amazoncognito.com/login?response_type=code&client_id=2su4i2v4hbi8gi8mqj8832sd45&redirect_uri=https://oncleboneshawarmabucket.s3.us-east-2.amazonaws.com/index.html">Sign In</a>
+        <a href="https://onlcdboneshawarma.auth.us-east-2.amazoncognito.com/logout?client_id=2su4i2v4hbi8gi8mqj8832sd45&logout_uri=https://oncleboneshawarmabucket.s3.us-east-2.amazonaws.com/index.html">Sign Out</a>
+    </div>
+
+    <h1>Shawarma Menu</h1>
+    <div id="menu"></div>
+
+    <h2>Place Your Order</h2>
+    <form id="orderForm">
+        <input type="text" id="username" placeholder="Enter Username" required>
+        <input type="email" id="email" placeholder="Enter Email" required>
+        <select id="itemSelect" required>
+            <!-- Menu items will be loaded here -->
+        </select>
+        <button type="submit">Place Order</button>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
+

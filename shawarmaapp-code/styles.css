@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+#menu, #orderForm, #authLinks {
+    margin-bottom: 20px;
+}
+
+input, select, button {
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 200px;
+    display: block;
+}
+
+button {
+    cursor: pointer;
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+}
+
+#authLinks a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #007bff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#authLinks a:hover {
+    background-color: #0056b3;
+}
