@@ -1,0 +1,32 @@
+### beef shawarma
+
+{
+  "ItemId": {"N": "1"},
+  "ItemName": {"S": "Beef Shawarma"},
+  "Description": {"S": "Delicious slow-cooked beef with spices"},
+  "Price": {"N": "5.00"},
+  "ImageUrl": {"S": "https://oncleboneshawarmabucket.s3.us-east-2.amazonaws.com/images/beef-shawarma.jpg"}
+}
+
+
+### chiecken shwarma 
+
+{
+  "ItemId": {"N": "2"},
+  "ItemName": {"S": "Chicken Shawarma"},
+  "Description": {"S": "Grilled chicken with garlic and herbs"},
+  "Price": {"N": "4.50"},
+  "ImageUrl": {"S": "https://oncleboneshawarmabucket.s3.us-east-2.amazonaws.com/images/chicken-shawarma.jpg"}
+}
+
+
+lamb sharwama 
+
+{
+  "ItemId": {"N": "3"},
+  "ItemName": {"S": "Lamb Shawarma"},
+  "Description": {"S": "Tender lamb with a mix of Mediterranean spices"},
+  "Price": {"N": "6.00"},
+  "ImageUrl": {"S": "https://oncleboneshawarmabucket.s3.us-east-2.amazonaws.com/images/lamb-shawarma.jpg"}
+}
+
